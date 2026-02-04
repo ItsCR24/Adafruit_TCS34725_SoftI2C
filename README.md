@@ -1,4 +1,5 @@
-#Adafruit TCS34725 Color Sensor Driver with software SDA / SCL emulation#
+# Adafruit TCS34725 Color Sensor Driver with software SDA / SCL emulation
+## Fork by CR24 adding some methods from the newest version
 
 This driver is for the Adafruit TCS34725 Breakout.
     ------> http://www.adafruit.com/products/1334
@@ -25,4 +26,3 @@ You can read about it here: https://github.com/adafruit/Adafruit_TCS34725
 Adafruit_TCS34725softi2c tcs = Adafruit_TCS34725softi2c(TCS34725_INTEGRATIONTIME_700MS, TCS34725_GAIN_1X, SDApin, SCLpin);
 
 ```
-

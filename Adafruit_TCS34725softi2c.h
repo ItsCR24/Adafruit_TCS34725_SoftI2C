@@ -125,6 +125,7 @@ class Adafruit_TCS34725softi2c {
   void     setIntegrationTime(tcs34725IntegrationTime_t it);
   void     setGain(tcs34725Gain_t gain);
   void     getRawData(uint16_t *r, uint16_t *g, uint16_t *b, uint16_t *c);
+  void Adafruit_TCS34725softi2c::getRGB(float *r, float *g, float *b);
   uint16_t calculateColorTemperature(uint16_t r, uint16_t g, uint16_t b);
   uint16_t calculateLux(uint16_t r, uint16_t g, uint16_t b);
   void     write8 (uint8_t reg, uint32_t value);
